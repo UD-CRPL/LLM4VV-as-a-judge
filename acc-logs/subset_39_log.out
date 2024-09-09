@@ -1,0 +1,16 @@
+
+Lmod is automatically replacing "PrgEnv-gnu/8.5.0" with "PrgEnv-nvidia/8.5.0".
+
+
+Lmod is automatically replacing "gcc-native/12.3" with "nvidia/23.9".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/23.12.5     2) cray-mpich/8.1.28
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/m4093/LLM4vv/Validation_Pipeline/pipeline-negative-probing.py", line 34, in <module>
+    with open(input_data_file, 'r') as f: data = json.load(f)
+FileNotFoundError: [Errno 2] No such file or directory: './scratch/subset_39.json'
+srun: error: nid001289: task 0: Exited with exit code 1
+srun: Terminating StepId=29306071.0
